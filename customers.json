@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "customer_id": 101
+  },
+  {
+    "name": "Bob Johnson",
+    "email": "bob@example.com",
+    "customer_id": 102
+  },
+  {
+    "name": "Carol Davis",
+    "email": "carol@example.com",
+    "customer_id": 103
+  },
+  {
+    "name": "David Wilson",
+    "email": "david@example.com",
+    "customer_id": 104
+  },
+  {
+    "name": "Eva Brown",
+    "email": "eva@example.com",
+    "customer_id": 105
+  },
+  {
+    "name": "Frank Miller",
+    "email": "frank@example.com",
+    "customer_id": 106
+  },
+  {
+    "name": "Grace Lee",
+    "email": "grace@example.com",
+    "customer_id": 107
+  }
+]

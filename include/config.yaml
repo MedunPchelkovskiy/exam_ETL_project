@@ -1,0 +1,39 @@
+aws_conn_id: aws_conn_id
+
+s3:
+  bucket: <YOUR S3 BUCKET NAME>          #TODO: Add config file and use his variable!
+  folder: <YOUR S3 BUCKET FOLDER NAME>   #TODO: Add config file and use his variable!
+
+snowflake:
+  conn_id: my_snowflake_conn
+  account: <YOUR SNOWFLAKE ACCOUNT>      #TODO: Add config file and use his variable!
+  warehouse: RETAIL_ETL_PROJECT_WH
+  database: RETAIL_ETL_PROJECT_DB
+  targets:
+    sales:
+      schema: cleaned_layer
+      table: sales_data
+    products:
+      schema: cleaned_layer
+      table: products_data
+    merged:
+      schema: cleaned_layer
+      table: merged_data
+    enriched:
+      schema: business_layer
+      table: enriched_data
+    trends:
+      schema: presentation_layer
+      table: sales_trends
+    ranking:
+      schema: presentation_layer
+      table: sales_ranking
+    seasonality:
+      schema: presentation_layer
+      table: sales_seasonality
+    average:
+      schema: presentation_layer
+      table: average_sales_and_units
+    status:
+      schema: presentation_layer
+      table: sales_status
